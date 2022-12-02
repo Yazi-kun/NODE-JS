@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="author" content="CodeHim">
+        <title>e-Library</title>
+        <!-- Style CSS -->
+        <link rel="stylesheet" href="/style.css">
+        
+    </head>
+
+    <body>
+        
+            <h1> LIST OF BOOKS:</h1>
+
+        <div class="home"> 
+            <div>
+                <table id="liste">
+
+                    <tr>
+                    <td><h2 id="book">Book 1</h2></td>
+                    </tr>
+                    <tr>
+                    <td><span>Title : </span>La fortune des Stanton</td>
+                    </tr>
+                    <tr>
+                        <td><span>ISBN : </span>9782280451291</td>
+                    </tr>
+                    <tr>
+                        <td><span>Author : </span>Ginna Gray</td>
+                    </tr>
+                    <tr>
+                        <td><span>Publication : </span>Harlequin, 2020</td>
+                    </tr>
+
+
+                    <tr>
+                        <td><h2 id="book">Book 2</h2></td>
+                    </tr>
+                    <tr>
+                        <td><span>Title : </span>The Book of Cold Cases</td>
+                    </tr>
+                    <tr>
+                        <td><span>ISBN : </span> 9780440000211</td>
+                    </tr>
+                    <tr>
+                        <td><span>Author : </span> Simone St. James</td>
+                    </tr>
+                    <tr>
+                        <td><span>Publication : </span>March 15th 2022 by Berkley</td>
+                    </tr>
+
+
+                    <tr>
+                        <td><h2 id="book">Book 3</h2></td>
+                    </tr>
+                    <tr>
+                        <td><span>Title : </span>Rock Paper Scissors</td>
+                    </tr>
+                    <tr>
+                        <td><span>ISBN : </span>9781250266101</td>
+                    </tr>
+                    <tr>
+                        <td><span>Author : </span>Alice Feeney</td>
+                    </tr>
+                    <tr>
+                        <td><span>Publication : </span>September 7th 2021 by Flatiron Books</td>
+                    </tr>
+
+
+                    <tr>
+                        <td><h2 id="book">Book 4</h2></td>
+                    </tr>
+                    <tr>
+                        <td><span>Title : </span>A Line To Kill</td>
+                    </tr>
+                    <tr>
+                        <td><span>ISBN : </span>9780062938169</td>
+                    </tr>
+                    <tr>
+                        <td><span>Author : </span>Anthony Horowitz</td>
+                    </tr>
+                    <tr>
+                        <td><span>Publication : </span>19th 2021 by Harper</td>
+                    </tr>
+                    
+
+
+                </table>
+            </div>
+
+            <div class="system">
+                
+                        <form action="/register" method="POST">
+                            <h3 id="title">Library Management System</h3> <br>
+        
+                            <table  cellpadding="5" cellspacing="5">
+                                <td>
+                                    <input type=file oninput="pic.src=window.URL.createObjectURL(this.files[0])" name="image"></td>
+                                
+                                <tr>
+                                    <img id="pic" />
+                                    <td> Enter ISBN :</td>
+                                    <td> <input type="number" name="isbn" size="48"> </td>
+                                </tr>
+                                <tr>
+                                    <td> Enter Title :</td>
+                                    <td> <input type="text" name="title" size="48"> </td>
+                                </tr>
+                                <tr>
+                                    <td> Enter Author :</td>
+                                    <td> <input type="text" name="author" size="48"> </td>
+                                </tr>
+                                <tr>
+                                    <td> Enter Publication date :</td>
+                                    <td> <input type="text" name="edition" size="48"> </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <input type="submit" value="submit">
+                                        <input type="reset" value="Reset">
+                                    </td>
+                                </tr>
+                            </table>
+                        </form>
+            </div>
+
+
+
+
+            
+                
+                
+        </div>
+
+
+
+        
+
+
+            
+            
+    
+    </body>
+    
+    
+</html>  

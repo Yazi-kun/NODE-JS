@@ -1,0 +1,52 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+
+  h1{
+    text-align: center;
+}
+
+span{
+    font-weight: bold;
+}
+
+#liste{
+    border: 1px solid rgb(221, 219, 219);
+  }
+
+
+h2{
+    background-color: rgb(163, 224, 204);
+    text-align: center;
+    color:rgb(25, 15, 172);
+}
+
+.home{
+    display: flex;
+    flex-direction: row;
+    gap:20%;
+    margin:5%;
+
+    
+}
+
+
+form{
+    border: 1px solid rgb(221, 219, 219);
+    
+   
+}
+
+img {
+    max-width: 50%;
+    height: auto;
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+    
+
+}
+
+
